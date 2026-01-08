@@ -1,6 +1,6 @@
 ## Wazuh與PfSense主動防禦機制 
 
-本專案實作了 **Wazuh + PfSense** 的自動化聯防機制。當 Wazuh 偵測到 SSH 暴力破解攻擊時，會自動觸發 Active Response，透過 SSH 連線至 pfSense 防火牆封鎖攻擊來源。
+本專案實作了 **Wazuh + PfSense** 的自動化聯防機制，當 Wazuh 偵測到 SSH 暴力破解攻擊時，會自動觸發 Active Response，透過 SSH 連線至 pfSense 防火牆封鎖攻擊來源。
 
 ### 1. 架構說明
 * **Wazuh Manager**: 負責監控日誌，偵測 `Rule ID: 5716` (SSH Authentication Failed)。
@@ -16,5 +16,6 @@ pfSense 防火牆已成功部署並與 Wazuh 位於同一內網 (192.168.56.x)�
 
 
 ![pfSense Running](firewallpic1.png)
+
 
 
