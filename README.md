@@ -15,4 +15,5 @@
 pfSense 防火牆已成功部署並與 Wazuh 位於同一內網 (192.168.56.x)。
 
 
-![pfSense Running](firewallpic1)
+![pfSense Running](firewallpic1.png)
+
